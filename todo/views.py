@@ -27,3 +27,10 @@ def minauser3(request):
 # user4
 def minauser4(request):
     return render(request,'todo/todo_list.html',{})
+
+# user5
+def minauser5(request):
+    return render(request,'todo/todo_list.html',{})
+# user6
+def minauser6(request):
+    return render(request,'todo/todo_list.html',{})
