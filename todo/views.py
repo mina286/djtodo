@@ -10,3 +10,6 @@ def todo_list(request):
 # mina samaan go new new 
 # mina samaan go new new 
 # mina samaan go new new 
+
+def mina1(request):
+        return render(request,'todo/todo_list.html',{})
