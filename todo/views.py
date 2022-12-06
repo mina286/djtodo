@@ -28,3 +28,5 @@ def minauser11(request):
 # user
 def user(request):
     return render(request,'todo/todo_list.html',{})
+
+
