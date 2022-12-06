@@ -23,3 +23,8 @@ def minauser2(request):
 # user1 1
 def minauser11(request):
     return render(request,'todo/todo_list.html',{})
+
+###### new test user
+# user
+def user(request):
+    return render(request,'todo/todo_list.html',{})
