@@ -18,3 +18,7 @@ def mina1(request):
 # user
 def minauser2(request):
     return render(request,'todo/todo_list.html',{})
+
+# user3
+def minauser3(request):
+    return render(request,'todo/todo_list.html',{})
