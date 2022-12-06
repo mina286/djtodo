@@ -30,3 +30,9 @@ def user(request):
     return render(request,'todo/todo_list.html',{})
 
 
+###### new test kero
+# kero
+def kero(request):
+    return render(request,'todo/todo_list.html',{})
+
+
